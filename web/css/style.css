@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 15px; /* Space between logo and title */
+}
+
+.site-title a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.hero {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/849/553/small_2x/modern-gold-background-free-vector.jpg'); /* Change to your desired hero background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.about {
+  background-color: #f8f9fa;
+}
+
+.services .card {
+  margin-bottom: 20px; /* Space between cards */
+}
+
+footer {
+  background-color: #004d26;
+  color: white;
+}
+
+footer a {
+  color: #ffcc00; /* Gold color for footer links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

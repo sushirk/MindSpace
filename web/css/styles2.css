@@ -1,0 +1,55 @@
+
+
+/* Container Styles */
+.container {
+  margin-top: 30px;
+}
+
+/* List Group Styles */
+.list-group-item {
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #007bff; /* Blue header for modals */
+  color: white;
+}
+
+.modal-footer {
+  justify-content: center; /* Center footer buttons */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #90ee90; /* Same as nav for consistency */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
